@@ -1,0 +1,51 @@
+# pyCharm project files
+.idea/
+.vscode/
+*.iml
+*.egg-info
+*.lock
+*.log
+*.pyc
+*.pyo
+*$py.class
+
+# virtual environment
+venv
+.venv
+
+# variables environment
+/dev_env.env
+*.env
+
+# drivers logs files
+*.log
+
+# reports directory
+reports/
+allure_results/
+htmlcov/
+
+# files bash
+/sh_clean.sh
+/sh_start_app.sh
+/sh_allure_reports.sh
+
+# others files
+.DS_Store
+__pycache__/
+src/.DS_Store
+src/__pycache__/
+src/cloud_logging/__pycache__/
+src/cloud_sql/__pycache__/
+src/config/__pycache__/
+src/kafka_server/__pycache__/
+src/cloud_pubsub/__pycache__/
+test/.DS_Store
+test/__pycache__/
+test/fixture/__pycache__/
+test/resources/__pycache__/
+/http/
+
+/.coverage
+/.coveragerc
+/rerun.txt
