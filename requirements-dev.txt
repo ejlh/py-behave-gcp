@@ -1,0 +1,11 @@
+build~=0.10.0
+twine~=4.0.2
+
+# To allow fallback of packages like PyYAML
+wheel~=0.42.0
+
+# Linter and formatter
+ruff~=0.1.11
+
+# Security checks
+safety~=2.3.5
